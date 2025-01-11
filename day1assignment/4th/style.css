@@ -1,0 +1,57 @@
+/* class name always starts with a dot symbol */
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.title{
+    /* selector */
+    color: red;
+}
+.center{
+    text-align: center;
+}
+
+.login{
+    width: 350px;
+    margin: 120px auto;
+    text-align: center;
+}
+.h1{
+    font-style:italic;
+    font-size: 45px;
+}
+.h3{
+    margin:25px auto;
+}
+.pp{
+    margin:25px;
+}
+.pp1{
+    margin:20px;
+    color: gray;
+}
+.input{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 7px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+}
+.login-btn{
+    width: 60%;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 12px;
+    margin:15px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+}
+
+/* box-sizing:border-box ensures u can apply padding and the content does not go 
+out of the parent element */
+.logo{
+    height: 42px;
+}
